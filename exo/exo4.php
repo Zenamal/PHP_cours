@@ -110,8 +110,13 @@
  <strong>Résultat :</strong>
 
  <?php
-
-   // TODO
+ for($j=1;$j<4;$j++){
+    for($k=1;$k<11;$k++){
+      $sum=$j*$k;
+      echo $j."*".$k."=".$sum;
+      echo "<br/>";
+    }
+  } 
 
    ?>
 
